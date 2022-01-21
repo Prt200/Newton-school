@@ -1,0 +1,23 @@
+import java.io.*; // for handling input/output
+import java.util.*; 
+class Main {
+	public static long gcd(long a,long b) 
+	{
+		if(a==0)
+		{return b;}
+		if(b==0)
+		{return a;}
+		if(a>b)
+		{return gcd(b,a%b);}
+		else if(b>a)
+		{return gcd(a,b%a);}
+		return a;
+	}
+		public static void main (String[] args) 
+		{
+     Scanner sc = new Scanner(System.in);
+	 long a = sc.nextLong();
+	 long b = sc.nextLong();
+	 System.out.println(gcd(a,b));
+	}
+}
