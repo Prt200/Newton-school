@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img src="http://sfwallpaper.com/images/girl-images-10.jpg" alt="My photo">
+        <h1>PRANUSHA THOKALA</h1>
+        <a href="https://www.linkedin.com/in/pranusha-thokala-71086aba/">visit my linkdln page!</a>
+        <section id="skills">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVACSRIPT</li>
+                <li>REACT</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <ul>
+                <li>DESIGN AND ANALYSIS OF X-BAND RADOME</li>
+                <li>E-COMMERCE WEBSITE OF BAKERSCAKE</li>
+                  tech stack:HTML,CSS,JS
+            </ul>
+            </section>
+    </body>
+</html>
+
+
+
+
+img{
+    width: 320px;
+    height: 300px;
+}
