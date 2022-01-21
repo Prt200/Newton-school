@@ -1,0 +1,40 @@
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+// don't change the name of this class
+// you can add inner classes if needed
+class Main {
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int p1 = sc.nextInt();
+		int p2 = sc.nextInt();
+		int p3 = sc.nextInt();
+		int p4 = sc.nextInt();
+		int p5 = sc.nextInt();
+		int p = p1+p2+p3+p4+p5;
+
+		if(p1 >= (p-p1))
+		{
+			System.out.print("SPD Emergency");
+		}
+		else if(p2 >= (p-p2))
+		{
+			System.out.print("SPD Emergency");
+		}
+		else if(p3 >= (p-p3))
+		{
+			System.out.print("SPD Emergency");
+		}
+		else if(p4 >= (p-p4))
+		{
+			System.out.print("SPD Emergency");
+		}
+		else if(p5 >= (p-p5))
+		{
+			System.out.print("SPD Emergency");
+		}
+		else{
+			System.out.print("Stable");
+		}
+	}
+}
